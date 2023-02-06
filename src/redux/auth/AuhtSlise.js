@@ -11,8 +11,8 @@ const initialState = {
 };
 
 const authSlice = createSlice({
-    name: 'auth',
-  initialState, 
+        name: 'auth',
+        initialState, 
     extraReducers: builder => builder
         // .addCase(register.pending, (state) => state)
         .addCase(register.fulfilled, (state, action) => {

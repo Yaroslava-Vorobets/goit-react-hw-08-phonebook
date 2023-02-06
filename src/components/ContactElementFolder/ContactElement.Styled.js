@@ -8,15 +8,15 @@ export const ListEl = styled.li`
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background-color: #f5f6f8;
-    border: 1px solid #a4a6a8;
+    background-color: #E9D8FD;
+    border: 1px solid #FAF5FF;
  `;  
 
  export const Text = styled.div`  
     display: flex;   
     align-items: center;
     padding: 0 34px;
-    background-color:  #ebf2fc;
+    background-color:  #FAF5FF;
     border: 1px solid #a4a6a8;
     border-radius: 5px;
  `;  
@@ -28,7 +28,7 @@ export const ListEl = styled.li`
  `; 
  
   export const Button = styled.button` 
-    background-color: #aae3f6;
+    background-color:#9F7AEA;
     border-radius: 5px;
     border: none;
     color: white;

@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 
 export const Form = styled.form`     
-    border: 4px solid #eef0f2;
+    border: 4px solid #FAF5FF;
     border-radius: 8px;
-    background: #ebf2fc;   
+    background: #E9D8FD;   
     display: flex;
     flex-direction: column;    
     justify-content: center;    
@@ -14,14 +14,14 @@ export const Form = styled.form`
 export const Label = styled.label`   
     text-shadow: 0 1px 0 rgb(170 227 246), 0px 2px 0  rgb(170 227 246);
     text-transform: uppercase;   
-    color: #64C3F3;
+    color: #B794F4;
     margin-bottom: 10px;
     letter-spacing: 4px;
     font: normal 26px Verdana, Helvetica;
    ` 
    
     export const Input = styled.input`   
-    border: 2px solid #ebf2fc;
+    border: 2px solid #FAF5FF;
     border-radius: 4px;
     padding: 6px 16px 6px 20px;
     margin: 0 0 6px 0; 
@@ -37,7 +37,7 @@ export const Label = styled.label`
     margin-top: 10px;
     padding: 15px 15px;
     color: #fff;
-    background: #aae3f6;
+    background: #9F7AEA;
     border: 0px;
     border-radius: 12px;
     cursor: pointer;

@@ -9,11 +9,11 @@ export const ContactList = () => {
 
   return (
      <List>
-        {visibleContacts.map(({ id, name, phone }) =>      
+        {visibleContacts.map(({ id, name, number }) =>      
                 <ContactElement key={id}                         
                       name={name}
                       id={id}
-                      number={phone} /> 
+                      number={number} /> 
         )}                 
     </List>
   )

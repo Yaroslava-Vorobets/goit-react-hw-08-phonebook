@@ -6,7 +6,7 @@ import { addContact } from 'redux/contacts/operations';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import {selectContact} from 'redux/contacts/selectors'
-
+import { Box, Container, } from '@chakra-ui/react'
 
 
 
@@ -48,38 +48,39 @@ export default function ContactForm () {
       return;
     }
  
-      dispatch(addContact({ name, phone:number}))
+      dispatch(addContact({ name, number}))
     reset ()
         
-    } 
-   
+    }   
        
         return (
-            <>
-                <Form onSubmit = {handleSubmit}>
-                    <Label  htmlFor="fname">Name </Label>
-                    < Input
-                        onChange={handleChange}
-                        value={name}
-                        type="text"
-                        name="name"
-                        pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-                        title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
-                        required
-                        />               
-                    <Label  htmlFor="fname">Number</Label > 
+            <Box>
+                <Container maxW="container.lg" p= {6}>
+                    <Form onSubmit = {handleSubmit}>
+                        <Label  htmlFor="fname">Name </Label>
                         < Input
-                        onChange={handleChange}
-                        value={number}
-                        type="tel"
-                        name="number"
-                        pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
-                        title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
-                        required
-                        />                    
+                            onChange={handleChange}
+                            value={name}
+                            type="text"
+                            name="name"
+                            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+                            title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
+                            required
+                            />               
+                        <Label  htmlFor="fname">Number</Label > 
+                            < Input
+                            onChange={handleChange}
+                            value={number}
+                            type="tel"
+                            name="number"
+                            pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
+                            title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
+                            required
+                            />                    
                         < Button type = "submit" >add contact</ Button>                
-                </Form>            
-            </>
+                    </Form>            
+                </Container>
+            </Box>
         )
 }
     //якщо без стейту

@@ -11,6 +11,7 @@ import {
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import { ContactReduser } from './contacts/ContactSlise';
+import {filtersReducer} from './contacts/FilterSlise'
 import { authReducer } from 'redux/auth/AuhtSlise';
 const middleware = [
   ...getDefaultMiddleware({
@@ -30,7 +31,8 @@ const authPersistConfig = {
 export const store = configureStore({
   reducer: {
     auth: persistReducer(authPersistConfig, authReducer),
-     contacts:ContactReduser,  
+    contacts: ContactReduser,
+    filter: filtersReducer,
   },
   middleware,
   devTools: process.env.NODE_ENV === 'development',
@@ -43,6 +45,7 @@ export const persistor = persistStore(store);
 
 // import { ContactReduser } from './contacts/ContactSlise';
 // import { configureStore} from "@reduxjs/toolkit";
+//  import {filtersReducer} from './contacts/FilterSlise'
 // import {
 //   persistStore,
 //   persistReducer,
@@ -64,7 +67,8 @@ export const persistor = persistStore(store);
 // export const store = configureStore({
 //     reducer: {
 //       auth: persistReducer(authPersistConfig, authReducer),
-//       contacts:ContactReduser,       
+//       contacts:ContactReduser, 
+//      filter: filtersReducer      
 //     },
 //      middleware: getDefaultMiddleware =>
 //       getDefaultMiddleware({
