@@ -1,5 +1,5 @@
 import { Dna} from 'react-loader-spinner'
-import { Wrap } from './Spinner';
+import  {Wrap}  from './Spinner.Styled';
 
 export const Spinner = () => {
     return (
