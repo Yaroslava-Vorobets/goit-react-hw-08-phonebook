@@ -6,7 +6,7 @@ import { RegisterForm } from 'components/RegisterForm/RegisterForm';
 export default function Register() {
   return (
     <div>
-      <Helmet>
+        <Helmet>
          {/* <Text
             bgGradient='linear(to-l, #7928CA, #FF0080)'
             bgClip='text'
@@ -17,7 +17,7 @@ export default function Register() {
           </Text> */}
       
         <title>Registration</title>
-      </Helmet>
+     </Helmet>
       <RegisterForm />
     </div>
   );
