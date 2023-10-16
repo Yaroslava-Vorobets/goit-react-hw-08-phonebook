@@ -46,7 +46,7 @@ export const RegisterForm = () => {
       </FormControl>   
       <FormControl >
         <FormLabel fontSize={25} color='#805AD5'> Password</FormLabel>
-        <Input  border= '2px solid' borderColor = '#D53F8C' type="password" name="password" placeholder=' Password'  _hover={{ borderColor: '#FED7E2' }}  _focusVisible={"none"}/>
+        <Input  border= '2px solid' borderColor = '#D53F8C' type="password" name="password" placeholder='Password must consist of seven characters'  _hover={{ borderColor: '#FED7E2' }}  _focusVisible={"none"}/>
       </FormControl>  
       <Button  mt = {6} type="submit" colorScheme='pink'>Register</Button>
     </form>
