@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.05640351.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.fcd3efea.js",
     "static/js/415.691655e9.chunk.js": "/goit-react-hw-08-phonebook/static/js/415.691655e9.chunk.js",
-    "static/js/236.3a1eb170.chunk.js": "/goit-react-hw-08-phonebook/static/js/236.3a1eb170.chunk.js",
+    "static/js/236.3996606e.chunk.js": "/goit-react-hw-08-phonebook/static/js/236.3996606e.chunk.js",
     "static/js/111.93d8fdd7.chunk.js": "/goit-react-hw-08-phonebook/static/js/111.93d8fdd7.chunk.js",
     "static/js/99.09fbcf51.chunk.js": "/goit-react-hw-08-phonebook/static/js/99.09fbcf51.chunk.js",
     "static/js/546.2abbfd05.chunk.js": "/goit-react-hw-08-phonebook/static/js/546.2abbfd05.chunk.js",
     "static/css/958.27b183e8.chunk.css": "/goit-react-hw-08-phonebook/static/css/958.27b183e8.chunk.css",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.7acaea2f.css.map": "/goit-react-hw-08-phonebook/static/css/main.7acaea2f.css.map",
-    "main.05640351.js.map": "/goit-react-hw-08-phonebook/static/js/main.05640351.js.map",
+    "main.fcd3efea.js.map": "/goit-react-hw-08-phonebook/static/js/main.fcd3efea.js.map",
     "415.691655e9.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/415.691655e9.chunk.js.map",
-    "236.3a1eb170.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/236.3a1eb170.chunk.js.map",
+    "236.3996606e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/236.3996606e.chunk.js.map",
     "111.93d8fdd7.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/111.93d8fdd7.chunk.js.map",
     "99.09fbcf51.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/99.09fbcf51.chunk.js.map",
     "546.2abbfd05.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/546.2abbfd05.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.05640351.js"
+    "static/js/main.fcd3efea.js"
   ]
 }
